@@ -1,7 +1,7 @@
 document.getElementById("footer").innerHTML = `<div class="flex items-center justify-center bg-slate-950	">
 <div class="m-2 max-w-5xl items-center">
     <div class="flex flex-col items-center"> <img class="flex m-1" src="https://dummyimage.com/150x50" />
-        <div class="m-2"> <a href="#"
+        <div class="m-2"> <a href=""
                 class="w-9 h-10 text-center border-current border-2 text-violet-600 hover:text-black pt-1 inline-block"><i
                     class="fa fa-facebook m-2"></i></a> <a href="#"
                 class="w-9 h-10 text-center border-current border-2 text-blue-600 hover:text-black pt-1 inline-block"><i
