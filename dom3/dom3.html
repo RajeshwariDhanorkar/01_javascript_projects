@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Enter Name" id="name" /><br>
+    <input type="text" placeholder="Enter Mobail" id="mobail" /><br>
+    <input type="text" placeholder="Enter age" id="age" /><br>
+    <input type="text" placeholder="Enter salary" id="salary"><br>
+    </form>
+    
+    <button>Submit</button>
+</body>
+</html>
+<script>
+    //forms
+    document.querySelector("button").addEventListener("click", myFunction);
+
+    function myFunction() {
+        let username = document.querySelector("#name").value;
+        let mobailno = document.querySelector("#mobail").value;
+        let userage = document.querySelector("#age").value;
+        let usalary = document.querySelector("#salary").value;
+
+        console.log(username,mobailno,userage,usalary);
+    }
+</script>
+
+
+
+
